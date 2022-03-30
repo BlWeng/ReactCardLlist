@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+#form_input{
+
+  display: inline-block;
+  margin-left: 30px;
+}
+
+#form_p{
+
+  display: inline-block;
+}
+
+.available_tutor{
+  color: white;
+}

@@ -1,12 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+//import App from './App';
 import reportWebVitals from './reportWebVitals';
+//import Main from './card_list';
+import Main from './Card_List_Search';
 
+/*
 ReactDOM.render(
   <React.StrictMode>
     <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+*/
+
+ReactDOM.render(
+  <React.StrictMode>
+    <Main />
   </React.StrictMode>,
   document.getElementById('root')
 );
